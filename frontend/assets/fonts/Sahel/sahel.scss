@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Sahel;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~assets/fonts/Sahel/Sahel.eot');
+  src: url('~assets/fonts/Sahel/Sahel.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('~assets/fonts/Sahel/Sahel.woff') format('woff'),
+  url('~assets/fonts/Sahel/Sahel.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sahel;
+  font-style: normal;
+  font-weight: bold;
+  src: url('~assets/fonts/Sahel/Sahel-Bold.eot');
+  src: url('~assets/fonts/Sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+  url('~assets/fonts/Sahel/Sahel-Bold.woff') format('woff'),
+  url('~assets/fonts/Sahel/Sahel-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sahel;
+  font-style: normal;
+  font-weight: 900;
+  src: url('~assets/fonts/Sahel/Sahel-Black.eot');
+  src: url('~assets/fonts/Sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+  url('~assets/fonts/Sahel/Sahel-Black.woff') format('woff'),
+  url('~assets/fonts/Sahel/Sahel-Black.ttf') format('truetype');
+}

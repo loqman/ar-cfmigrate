@@ -1,0 +1,103 @@
+html, body, * {
+  //direction: rtl;
+  font-family: Vazir, Sahel, Tahoma, serif;
+}
+
+h1, h2, h3, h4, h5, a {
+  font-family: Sahel, Tahoma, serif;
+}
+
+div, p, th, td, .btn {
+  font-family: Vazir, Sahel, Tahoma, serif;
+}
+
+.v-list__tile__action {
+  min-width: 25px;
+}
+
+.profiler-result {
+  display: none;
+}
+
+.v-text-field--reverse input {
+  direction: ltr;
+}
+
+.blue-background {
+  background-color: #f0f9fa;
+}
+
+.v-btn {
+  letter-spacing: 0 !important;
+}
+
+.v-card__title {
+  letter-spacing: 0 !important;
+  word-break: normal !important;
+}
+
+.ltr-text {
+  direction: ltr !important;
+  text-align: left;
+
+  h5 {
+    direction: ltr !important;
+    font-family: Roboto, sans-serif !important;
+  }
+
+  input {
+    //font-family: Roboto, sans-serif;
+  }
+
+  p {
+    direction: ltr !important;
+    text-align: left;
+    font-family: Roboto, sans-serif !important;
+  }
+}
+
+.rtl-text {
+  direction: rtl !important;
+  text-align: right;
+  font-family: Vazir, Sahel, Tahoma, serif;
+}
+
+.ltr-text {
+  direction: ltr !important;
+  text-align: left;
+  font-family: Vazir, Roboto, sans-serif, "Times New Roman";
+}
+
+.v-toolbar__title {
+  span.title {
+    font-family: Sahel, Tahoma, serif !important;
+  }
+}
+
+.v-application--is-rtl .ltr-text .v-input__prepend-outer {
+  margin-right: 9px;
+  margin-left: 0;
+}
+
+.v-application--is-rtl .ltr-text.v-text-field--reverse input {
+  direction: ltr;
+  text-align: left;
+  font-family: Vazir, Roboto, sans-serif, "Times New Roman";
+}
+
+.v-tab {
+  font-family: Sahel, Vazir, Tahoma, serif;
+  letter-spacing: 0 !important;
+  font-size: 1rem !important;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mono-font {
+  font-family: Consolas, Monospaced, Serif;
+}

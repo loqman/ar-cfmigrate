@@ -1,0 +1,3 @@
+class ArvanCloudController < ApplicationController
+
+end
